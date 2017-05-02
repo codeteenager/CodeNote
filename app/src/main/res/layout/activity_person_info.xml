@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.shuaijie.codenote.ui.PersonInfoActivity">
+
+    <com.shuaijie.codenote.views.CircleImageView
+        android:id="@+id/personAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/app_logo" />
+
+    <Button
+        android:id="@+id/uploadAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_bg"
+        android:text="头像上传"
+        android:textColor="@drawable/text_press" />
+
+    <Button
+        android:id="@+id/updatePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_bg"
+        android:text="修改密码"
+        android:textColor="@drawable/text_press" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_bg"
+        android:text="退出登录"
+        android:textColor="@drawable/text_press" />
+</LinearLayout>

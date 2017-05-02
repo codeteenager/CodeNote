@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">好记</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tip_one">1、你可以在本地记录笔记，然后上传到云端。</string>
+    <string name="tip_two">2、你可以在别的手机登录，然后将笔记下载到本地。</string>
+    <string name="tip_three">3、你可以点击忘记密码，然后重置密码。</string>
+    <string name="tip_four">4、你可以通过qq一键注册和登录。</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
